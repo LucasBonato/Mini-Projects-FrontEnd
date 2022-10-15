@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 600px) {
+    div.container {
+        display: block;
+        width: 20%;
+        margin-top: 8%;
+        padding: 15px;
+    }
+}
