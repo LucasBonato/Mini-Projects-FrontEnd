@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 800px) {
+    div.container {
+        width: 25%;
+        margin-top: 5%;
+        height: 100%;
+    }
+
+    p.cancel {
+        margin-top: 8%;
+        padding-bottom: 8%;
+    }
+}
