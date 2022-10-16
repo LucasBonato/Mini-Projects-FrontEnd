@@ -5,3 +5,28 @@
     padding: 0;
 }
 
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+    
+}
+
+div.card {
+    background-color: #fff;
+    display: none;
+    margin: auto;
+    margin-top: 10rem;
+    width: 90%;
+    height: 25rem;
+    border-radius: 10px;
+}
+
+img.pattern-bg {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
