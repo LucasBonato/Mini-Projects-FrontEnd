@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 426px) {
+
+    body {
+        background-position: right calc(50vw + 10%) bottom calc(65vh - 20vw), left calc(50vw + 10%) top calc(72vh - 10vw);
+    }
+
+    section.card {
+        width: 30vw;
+        height: 100%;
+    }
+    div.container {
+        padding-bottom: 5%;
+    }
+
+}
