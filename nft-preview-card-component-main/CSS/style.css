@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --bg-very-dark-blue: hsl(217, 54%, 11%);
+    --card-very-dark-blue: hsl(216, 50%, 16%);
+    --line-very-dark-blue: hsl(215, 32%, 27%);
+}
+
+body {
+    background-color: var(--bg-very-dark-blue);
+    color: var(--soft-blue);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+section.card {
+    background-color: var(--card-very-dark-blue);
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10%;
+    width: 90%;
+    padding: 5%;
+    border-radius: 20px;
+}
+
+img.nft {
+    width: 100%;
+    border-radius: 20px;
+}
+
+h1 {
+    color: var(--white);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+p.text {font-weight: 300;}
+
+div.container-main {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 5%;
+    border-color: var(--line-very-dark-blue);
+    border-bottom: .5px solid var(--line-very-dark-blue);
+    
+}
+
+div.eth-price,
+div.time-left {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-items: center;
+}
+
+p.price {
+    color: var(--cyan);
+    margin-left: 5px;
+    font-weight: 300;
+}
+
+p.clock {margin-left: 5px;}
+
+div.container-creator {
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5%;
+    font-weight: 300;
+}
+
+div.creator {
+    height: 40px;
+    border: 2px solid var(--white);
+    border-radius: 50%;
+}
+
+img.creator {width: 40px;}
+
+strong {
+    color: var(--white);
+    font-weight: 300;
+}
